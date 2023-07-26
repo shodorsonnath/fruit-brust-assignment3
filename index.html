@@ -26,10 +26,62 @@
 
 <body class="font-lato">
   <header class="md:container md:mx-auto">
-    <nav>
+    <!-- navbar section -->
+    <nav class="lg:bg-[#F85559] lg:mt-5 lg:mb-16 lg:rounded-full -mb-20 -mt-5">
+      <div class="navbar">
+        <div class="navbar-start">
+          <!-- logo -->
+          <div class="flex justify-center items-center gap-x-3 ml-8 lg:hidden">
+            <img class="w-8" src="images/logo.png" alt="">
+            <p class="font-bold text-2xl lg:text-white">Fruit_Burst</p>
+          </div>
+          <ul class="menu menu-horizontal px-1 text-white font-medium">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
 
+        <!-- navbar center -->
+        <div class="navbar-center hidden lg:flex">
+          <!-- logo -->
+          <div class="flex justify-center items-center gap-x-3">
+            <img class="w-10" src="images/logo.png" alt="">
+            <p class="font-bold text-4xl lg:text-white">Fruit Burst</p>
+          </div>
+        </div>
+
+        <!-- navbar end -->
+        <div class="navbar-end lg:flex items-center hidden">
+          <div class="relative flex items-center lg:mr-5">
+            <input type="text" placeholder="Search here" class="input rounded-full w-full h-10 pr-10 max-w-xs" />
+            <span class="absolute right-3">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="navbar-end lg:hidden">
+          <div class="dropdown dropdown-left">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+              <li> <input type="text" placeholder="Search here" class="input rounded-full w-full h-10 max-w-xs" /></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      </div>
     </nav>
-
+    <!--header slider part -->
     <div class="mt-12 px-3">
       <div class="carousel w-full">
         <!-- slider 1 -->
