@@ -25,13 +25,13 @@
 </head>
 
 <body class="font-lato">
-  <header class="md:container md:mx-auto lg:px-16">
-    <!-- navbar section -->
-    <nav class="lg:bg-[#F85559] lg:mt-5 lg:mb-16 lg:rounded-full">
+  <header class="md:container md:mx-auto lg:px-16 px-3">
+    <!-- navbar section start -->
+    <nav class="-mt-5 -mb-5 md:mt-5 md:mb-5 lg:bg-[#F85559] lg:mt-5 lg:mb-16 lg:rounded-full">
       <div class="navbar">
         <div class="navbar-start">
           <!-- logo -->
-          <div class="flex justify-center items-center gap-x-3 ml-8 lg:hidden">
+          <div class="flex justify-center items-center gap-x-3 ml-3 lg:hidden">
             <img class="w-8" src="images/logo.png" alt="">
             <p class="font-bold text-2xl lg:text-white">Fruit_Burst</p>
           </div>
@@ -81,18 +81,106 @@
       </div>
     </nav>
     <!-- navbar section end -->
-    <!--header slider part -->
+    <!--header slider part start-->
+    <div class="carousel w-full rounded-lg">
+      <!-- slider 1-->
+      <div id="slide1" class="carousel-item relative w-full">
+        <div class="hero h-auto lg:min-h-screen" style="background-image: url('/images/banner1.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md my-5">
+              <h1 class="mb-1 text-3xl font-extrabold text-white md:mb-2 md:text-5xl lg:text-7xl lg:-mx-24 lg:mb-5">Exotic taste at your <br>doorstep</h1>
+              <p class="text-sm font-normal text-white md:font-medium md:text-xl lg:font-medium lg:text-xl ">We supply highly quality organic products</p>
+              <!-- button -->
+              <div class="flex justify-center">
+                <button class="text-white bg-red-500 rounded py-3 px-2 w-28 lg:w-36 lg:px-5 lg:py-5 lg:rounded-lg mt-6">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider controler -->
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <!-- slider 2 -->
+      <div id="slide2" class="carousel-item relative w-full">
+        <div class="hero h-auto lg:min-h-screen" style="background-image: url('/images/banner2.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md my-5">
+              <h1 class="mb-1 text-3xl font-extrabold text-white md:mb-2 md:text-5xl lg:text-7xl lg:-mx-24 lg:mb-5">Exotic taste at your <br>doorstep</h1>
+              <p class="text-sm font-normal text-white md:font-medium md:text-xl lg:font-medium lg:text-xl ">We supply highly quality organic products</p>
+              <!-- button -->
+              <div class="flex justify-center">
+                <button class="text-white bg-red-500 rounded py-3 px-2 w-28 lg:w-36 lg:px-5 lg:py-5 lg:rounded-lg mt-6">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider controler -->
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <!-- slider 3 -->
+      <div id="slide3" class="carousel-item relative w-full">
+        <div class="hero h-auto lg:min-h-screen" style="background-image: url('/images/banner3.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md my-5">
+              <h1 class="mb-1 text-3xl font-extrabold text-white md:mb-2 md:text-5xl lg:text-7xl lg:-mx-24 lg:mb-5">Exotic taste at your <br>doorstep</h1>
+              <p class="text-sm font-normal text-white md:font-medium md:text-xl lg:font-medium lg:text-xl ">We supply highly quality organic products</p>
+              <!-- button -->
+              <div class="flex justify-center">
+                <button class="text-white bg-red-500 rounded py-3 px-2 w-28 lg:w-36 lg:px-5 lg:py-5 lg:rounded-lg mt-6">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider controlder -->
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <!-- slider 4 -->
+      <div id="slide4" class="carousel-item relative w-full">
+        <div class="hero h-auto lg:min-h-screen" style="background-image: url('/images/banner4.png');">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md my-5">
+              <h1 class="mb-1 text-3xl font-extrabold text-white md:mb-2 md:text-5xl lg:text-7xl lg:-mx-24 lg:mb-5">Exotic taste at your <br>doorstep</h1>
+              <p class="text-sm font-normal text-white md:font-medium md:text-xl lg:font-medium lg:text-xl ">We supply highly quality organic products</p>
+              <!-- button -->
+              <div class="flex justify-center">
+                <button class="text-white bg-red-500 rounded py-3 px-2 w-28 lg:w-36 lg:px-5 lg:py-5 lg:rounded-lg mt-6">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider controler -->
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    <!-- header slider part end -->
   </header>
+  <!-- main section -->
   <main class="md:container md:mx-auto lg:px-16">
-    <!-- deal of the day section -->
-    <section class="mt-80">
+    <!-- deal of the day section start -->
+    <section class="mt-7 lg:mt-60">
       <div>
         <div class="flex flex-col lg:justify-between lg:flex-row">
           <!-- title and description -->
           <div>
-            <h1 class="text-2xl text-center lg:text-5xl lg:text-left font-extrabold mb-5">Deal of the day</h1>
+            <h1 class="text-2xl text-center md:text-5xl lg:text-5xl lg:text-left font-extrabold mb-5">Deal of the day</h1>
             <p
-              class="text-center mb-8 px-8 lg:text-base lg:text-left font-medium text-[#12121299] lg:mb-12 lg:-ml-8 lg:mr-80">
+              class="text-center mb-8 px-8 md:px-24 lg:text-base lg:text-left font-medium text-[#12121299] lg:mb-12 lg:-ml-24 lg:mr-40">
               Contrary to popular belief, is not simply random
               text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
@@ -314,7 +402,8 @@
           <button class="text-white bg-red-500 rounded-lg py-5 px-4 w-36 mt-10">Shop All</button>
         </div>
     </section>
-    <!-- meet the team section -->
+    <!-- deal of the day section end -->
+    <!-- meet the team section start -->
     <section class="mt-20 mb-10 lg:my-24">
       <div class="hero min-h-screen" style="background-image: url('./images/team.png');">
         <div class="hero-overlay bg-opacity-60"></div>
@@ -594,7 +683,8 @@
       </div>
       </div>
     </section>
-    <!-- why choose us section -->
+    <!-- meet the team section end -->
+    <!-- why choose us section start -->
     <section class="mb-32">
       <div>
         <div class="text-center p-5">
@@ -719,6 +809,7 @@
         </div>
       </div>
     </section>
+    <!-- why choose us section end -->
   </main>
   <!-- footer section -->
   <footer class="footer footer-center p-10 bg-[#121212] text-white text-base-content rounded py-20">
